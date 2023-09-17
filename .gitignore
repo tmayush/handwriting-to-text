@@ -1,0 +1,12 @@
+/Docs/Other
+/Docs/Presentations
+/Docs/Reports
+
+node_modules
+
+/HTR/data
+/HTR/doc
+
+/help.txt
+
+__pycache__

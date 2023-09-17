@@ -1,0 +1,81 @@
+.container__title {
+  display: flex;
+  padding: 2rem 0 0 0;
+  justify-content: center;
+}
+.app-title {
+  font-size: 4rem;
+}
+.container__form {
+  display: flex;
+  justify-content: center;
+  margin: 5rem;
+}
+.img-drop-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: antiquewhite; */
+  width: 100rem;
+}
+.dropbox {
+  height: 30rem;
+  width: 80rem;
+  background-color: #eeeeee;
+  border: dashed 0.8rem hsl(197, 100%, 42%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  font-weight: 600;
+  color: #aaaaaa;
+}
+
+.dropbox2 {
+  display: flex;
+  justify-content: center;
+  height: 30rem;
+  width: 80rem;
+  background-color: #eeeeee;
+  color: #aaaaaa;
+}
+
+.imgs {
+  height: 30rem;
+  /* width: 80rem; */
+}
+
+input[type="file"] {
+  display: none;
+}
+
+button[type="submit"] {
+  margin: 4rem 0;
+  padding: 1rem 2rem;
+  background-color: hsl(197, 100%, 76%);
+  border-radius: 0.5rem;
+  font-weight: 500;
+  font-size: 1.6rem;
+  width: 10rem;
+}
+
+button[type="submit"]:hover {
+  cursor: pointer;
+  background-color: hsl(197, 80%, 66%);
+}
+
+.container__result {
+  display: flex;
+  justify-content: center;
+  margin: 10rem 0 0 0;
+  /* height: 20rem; */
+  /* width: 20rem; */
+  /* background-color: #cccccc; */
+  font-size: 2.5rem;
+}
+.title__result {
+  font-weight: 400;
+}
+.result-text {
+  font-weight: 500;
+}

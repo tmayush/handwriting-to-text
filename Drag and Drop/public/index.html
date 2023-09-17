@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Index</title>
+    <link rel="stylesheet" href="/styles/global.css" />
+    <link rel="stylesheet" href="/styles/css-variables.css" />
+    <link rel="stylesheet" href="/styles/index/index.css" />
+    <script type="module" src="/scripts/global.js" defer></script>
+    <script type="module" src="/scripts/app.js" defer></script>
+  </head>
+  <body>
+    <div class="container__title">
+      <h1 class="app-title">Handwriting To Text Recognition</h1>
+    </div>
+    <div class="container__form">
+      <form class="img-drop-form" action="">
+        <div class="dropbox js-drop-area">
+          <label class="no-touch" for="file"> Drag and Drop Image</label>
+          <input class="hidden" type="file" name="files[]" id="file" />
+        </div>
+        <button id="submit-btn" type="submit">Submit</button>
+      </form>
+    </div>
+    <div class="container__result">
+      <!-- <h3 class="title__result">Result</h3> -->
+      <span class="title__result">Result, Probability:</span>&nbsp;
+      <span class="js-result-text result-text"></span>
+    </div>
+  </body>
+</html>
