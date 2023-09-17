@@ -4,5 +4,5 @@ TensorFlow (TF)-based Handwritten Text Recognition (HTR) system developed, train
 
 # Screenshots
 
-![](./Docs/readme_media/Initial.png)
-![](./Docs/readme_media/Final.png)
+![](Docs/readme_media/Initial.png)
+![](Docs/readme_media/Final.png)
